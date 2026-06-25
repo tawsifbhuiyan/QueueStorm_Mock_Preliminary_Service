@@ -3,16 +3,6 @@ A ticket classification service for the SUST CSE Carnival 2026 - Codex Community
 📋 Overview
 This service automatically classifies customer support tickets for a digital finance company. It analyzes customer messages and determines:
 
-Case Type - What kind of problem it is
-
-Severity - How serious the issue is
-
-Department - Which team should handle it
-
-Agent Summary - A quick one-sentence summary
-
-Human Review Flag - Whether a human needs to review it
-
 🚀 Live Demo
 Base URL: https://mock-preli-submission.onrender.com
 
@@ -45,7 +35,7 @@ Local Development
 Clone the repository
 
 bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/tawsifbhuiyan/QueueStorm_Mock_Preliminary_Service
 cd your-repo-name
 Install dependencies
 
