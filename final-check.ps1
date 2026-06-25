@@ -11,7 +11,7 @@ try {
     if ($response.status -eq "Service is healthy") {
         Write-Host "✅ PASSED" -ForegroundColor Green
     } else {
-        Write-Host "❌ FAILED: Unexpected response" -ForegroundColor Red
+        Write-Host "❌ FAILED: Unexpected response occuring" -ForegroundColor Red
     }
 } catch {
     Write-Host "❌ FAILED: $($_.Exception.Message)" -ForegroundColor Red

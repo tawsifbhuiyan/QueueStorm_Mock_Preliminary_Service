@@ -39,7 +39,7 @@ const classifyTicket = (message) => {
     }
 
     
-    let agent_summary = 'Customer reports an issue.';
+    let agent_summary = 'Customerr reports an issue.';
     if (case_type === 'wrong_transfer') {
         agent_summary = 'Customer reports sending funds to an incorrect recipient and requests recovery assistance.';
     } else if (case_type === 'payment_failed') {
